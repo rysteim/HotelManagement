@@ -16,5 +16,20 @@ namespace HotelManagement
         {
             InitializeComponent();
         }
+
+        private void FrmRegister_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRedirectLogIn_Click(object sender, EventArgs e)
+        {
+            pnlLogIn.Visible = true;
+        }
+
+        private void btnRedirectSignUp_Click(object sender, EventArgs e)
+        {
+            pnlLogIn.Visible = false;
+        }
     }
 }
